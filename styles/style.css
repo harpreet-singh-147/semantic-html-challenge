@@ -67,6 +67,7 @@ body {
   font-family: var(--font-heading-total);
   color: var(--white);
   text-shadow: 1px 1px 2px black;
+  transition: all 0.2s ease;
 }
 
 .header__nav-list {
@@ -80,6 +81,12 @@ body {
   letter-spacing: -0.5px;
   font-size: 1.5rem;
   text-shadow: 1px 1px 2px black;
+  transition: all 0.2s ease;
+}
+
+.header__logo:hover,
+.header__nav-list a:hover {
+  opacity: 0.8;
 }
 
 /**** Hamburger Menu Button ****/
