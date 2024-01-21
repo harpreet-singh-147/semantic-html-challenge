@@ -3,6 +3,7 @@ const navList = document.querySelector('.header__nav-list');
 const tableBodyEl = document.querySelector('.main__table-body');
 const totalAlbumsEl = document.querySelector('.total-albums');
 const backdrop = document.querySelector('.header__backdrop');
+const aTags = document.querySelectorAll('a');
 
 fetch('../data/data.json')
   .then(res => res.json())
@@ -64,4 +65,10 @@ document.addEventListener('keydown', e => {
   if (e.key === 'Escape' && navList.classList.contains('show-nav')) {
     closeMenu();
   }
+});
+
+aTags.forEach(aTag => {
+  aTag.addEventListener('click', e => {
+    e.preventDefault();
+  });
 });
