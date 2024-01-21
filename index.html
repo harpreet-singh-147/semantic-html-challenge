@@ -1,26 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Hello!</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
 
-  </head>  
-  <body>
-    <!--repalce this h1 and p content with your own html table -->
-    <h1>Hi there!</h1>
+<head>
+  <title>Hello!</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
 
-    <p>
-      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
-    </p>
+</head>
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
-  </body>
+<body>
+  <header class="header">
+    <nav class="header__nav container">
+      <a href="" class="header__logo">Punky Stuff</a>
+
+      <button class="header__menu-button" aria-label="Menu" aria-expanded="false">
+        <span class="header__menu-line"></span>
+        <span class="header__menu-line"></span>
+        <span class="header__menu-line"></span>
+      </button>
+
+      <ul class="header__nav-list">
+        <li class="header__nav-item"><a href="">Home</a></li>
+        <li class="header__nav-item"><a href="">Stuff</a></li>
+        <li class="header__nav-item"><a href="">More Stuff</a></li>
+        <li class="header__nav-item"><a href="">Even More Stuff</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <header class="main__header">
+      <h1 class="main__heading">The UK's most famous punk bands!</h1>
+    </header>
+    <table class="main__table">
+      <caption class="main__table-caption">A summary of the UK's most famous punk bands</caption>
+      <thead class="main__table-head">
+        <tr class="main__table-row">
+          <th class="main__table-header-cell main__table-header-band" scope="col">Band</th>
+          <th class="main__table-header-cell main__table-header-year" scope="col">Year formed</th>
+          <th class="main__table-header-cell main__table-header-albums" scope="col">No. of albums</th>
+          <th class="main__table-header-cell main__table-header-song" scope="col">Most famous song</th>
+        </tr>
+      </thead>
+      <tbody class="main__table-body"></tbody>
+      <tfoot class="main__table-foot">
+        <tr class="main__table-row">
+          <th class="main__table-footer-heading" scope="row" colspan="2">Total albums</th>
+          <td class="main__table-footer-cell total-albums" colspan="2"></td>
+        </tr>
+      </tfoot>
+    </table>
+  </main>
+  <div class="header__backdrop"></div>
+  <script src="script/app.js"></script>
+</body>
+
 </html>

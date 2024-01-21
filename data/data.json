@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "band": "Buzzcocks",
+    "yearFormed": "1976",
+    "numberOfAlbums": "9",
+    "mostFamousSong": "Ever fallen in love (with someone you shouldn't've)"
+  },
+  {
+    "id": 2,
+    "band": "The Clash",
+    "yearFormed": "1976",
+    "numberOfAlbums": "6",
+    "mostFamousSong": "London Calling"
+  },
+  {
+    "id": 3,
+    "band": "The Damned",
+    "yearFormed": "1976",
+    "numberOfAlbums": "10",
+    "mostFamousSong": "Smash it up"
+  },
+  {
+    "id": 4,
+    "band": "Sex Pistols",
+    "yearFormed": "1975",
+    "numberOfAlbums": "1",
+    "mostFamousSong": "Anarchy in the UK"
+  },
+  {
+    "id": 5,
+    "band": "Sham 69",
+    "yearFormed": "1976",
+    "numberOfAlbums": "13",
+    "mostFamousSong": "If The Kids Are United"
+  },
+  {
+    "id": 6,
+    "band": "Siouxsie and the Banshees",
+    "yearFormed": "1976",
+    "numberOfAlbums": "11",
+    "mostFamousSong": "Hong Kong Garden"
+  },
+  {
+    "id": 7,
+    "band": "Stiff Little Fingers",
+    "yearFormed": "1977",
+    "numberOfAlbums": "10",
+    "mostFamousSong": "Suspect Device"
+  },
+  {
+    "id": 8,
+    "band": "The Stranglers",
+    "yearFormed": "1974",
+    "numberOfAlbums": "17",
+    "mostFamousSong": "No More Heros"
+  }
+]
